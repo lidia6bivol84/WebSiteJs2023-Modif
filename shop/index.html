@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - website Building</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+    <!--Start Section Navbar-->
+    <div class="p-5 bg-warning">
+        <h1>Demo Header</h1>
+    </div>
+    <nav id="navbar_top" class="navbar  navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="./img/logo.svg" height="28" alt="Logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#sec-home" class="nav-item nav-link active">Acasa</a>
+                    <a href="#sec-about" class="nav-item nav-link">Despre</a>
+                    <a href="#sec-contact" class="nav-item nav-link">Contact</a>
+
+                </div>
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Stop Section Navbar-->
+    <!--Start Section Carousel-->
+    <div id="sec-home" class="container-lg my-3">
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/slide1.png" class="d-block w-100" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some demonstrative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slide2.png" class="d-block w-100" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some demonstrative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/slide3.png" class="d-block w-100" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some demonstrative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+        <div class="alert alert-info mt-3">
+            Carousel caption will be hidden on smaller viewport, but become visible on medium devices (i.e. viewport
+            width &ge;768px). Change orientation of this HTML editor to see how it works.
+        </div>
+    </div>
+    <!--Stop Section Carousel-->
+    <!--Start Section about-->
+    <section id="sec-about">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, sint. Laudantium, quis. In ipsa saepe
+                velit ipsam optio, blanditiis atque? Deserunt neque hic laudantium tempora ab dolore mollitia veritatis
+                nesciunt!</p>
+            <p>Nulla animi necessitatibus labore facere quidem dicta eveniet blanditiis! Praesentium quod veniam vel
+                neque tempora soluta cumque beatae illum suscipit voluptatum tempore ipsa eligendi delectus, doloribus
+                molestias nisi laborum facere!</p>
+            <p>A minus suscipit laboriosam numquam porro ab ut placeat iusto. Quasi nemo aspernatur temporibus eos
+                dolor? Accusamus, nisi adipisci voluptatem ullam numquam suscipit ex repudiandae esse omnis dolorem
+                iusto neque.</p>
+            <p>Cum non natus reprehenderit eaque laborum debitis rerum! Architecto doloremque asperiores iusto natus,
+                odit, nam esse autem itaque sequi alias fuga! Facilis voluptatem accusamus eius doloribus eligendi.
+                Adipisci, sed enim.</p>
+            <p>Deleniti explicabo ea sequi quas commodi quasi ipsa tempore. Laboriosam alias commodi totam voluptate
+                autem consequuntur aut, aperiam consequatur, molestias cumque vitae doloribus quo et id accusamus ipsa
+                voluptas debitis.</p>
+            <p>Aliquam nobis laborum eius rerum placeat minus corporis, vel omnis numquam maxime, sequi qui voluptas,
+                earum ab. Numquam, dolores itaque. Quas quos autem ea omnis nesciunt rerum ex ad maxime!</p>
+            <p>Qui et culpa quasi ex. Porro tempore soluta in, nam doloremque itaque nobis repellat nemo aut hic rerum
+                sint minus blanditiis obcaecati accusamus modi consequuntur reprehenderit harum? Odit, consequuntur
+                reiciendis.</p>
+            <p>Velit id non voluptates corporis, et placeat tenetur, provident similique sit quis assumenda nesciunt
+                nostrum qui! Sapiente beatae ratione accusantium obcaecati nostrum praesentium magnam, itaque commodi
+                repellat nisi, quidem error?</p>
+            <p>At perferendis fuga eius inventore culpa, ducimus recusandae a ut placeat reiciendis ipsum temporibus
+                dolorum consequuntur veritatis omnis corrupti tempora quae. Eveniet in consequuntur repudiandae
+                perspiciatis repellendus corporis, magni ipsa.</p>
+            <p>Praesentium a, voluptates ad nobis accusantium officiis laudantium nemo nam consectetur ea porro eveniet
+                dignissimos iure inventore, velit assumenda quaerat maxime, distinctio saepe. Quam nostrum in expedita!
+                Laborum, quibusdam iste?</p>
+            <p>Cumque earum, nostrum ut inventore eos voluptates veritatis temporibus voluptatem sequi magnam repellat
+                cupiditate vero mollitia non esse beatae nihil iure corporis, nesciunt dolore? Earum reiciendis illo
+                veritatis eaque aperiam.</p>
+            <p>Animi beatae distinctio voluptatibus dolores consectetur id atque ducimus quia commodi quis, facilis quo
+                tenetur vitae, itaque facere, quasi voluptatem! Pariatur sed similique velit recusandae adipisci impedit
+                reprehenderit qui dolores.</p>
+            <p>Impedit harum perferendis corporis, itaque reprehenderit, saepe eaque labore necessitatibus quod facere
+                sequi et quidem? Voluptatum unde corrupti est voluptas ipsum repellendus, error quisquam consectetur,
+                expedita magni, totam earum neque!</p>
+            <p>Saepe harum quo sint! Perferendis in tempore, repellat velit magni neque officia architecto. Nulla,
+                voluptate quia. Odit, molestias! Consequuntur ipsum eius ea iste autem veritatis vitae dolorum vel, sit
+                excepturi?</p>
+            <p>Aliquid vero atque temporibus maxime, quibusdam nemo, voluptas minus sequi, cum aspernatur incidunt
+                libero similique numquam suscipit sint saepe expedita ea. Eius laudantium quos temporibus provident odit
+                aut eligendi reprehenderit?</p>
+            <p>Laboriosam earum soluta unde beatae. Enim numquam dolorum nesciunt quis quas vel autem nostrum pariatur,
+                debitis amet iusto qui in natus ullam unde dolorem perferendis velit voluptatibus sapiente! Iste,
+                quibusdam.</p>
+            <p>Doloremque corrupti quasi nesciunt ipsam voluptates asperiores hic nam quam ad alias eligendi possimus
+                sed aut ipsa, necessitatibus esse. Voluptatum tempora veniam labore eaque enim fugit aliquam. Nemo,
+                dolore consequatur.</p>
+            <p>Accusantium iste sint similique reiciendis suscipit dolor quibusdam necessitatibus magnam consectetur
+                velit, perferendis aliquam rerum aperiam cupiditate eius, soluta sunt quidem quam at possimus fuga
+                laudantium atque minima consequuntur. Doloremque!</p>
+            <p>Ullam expedita pariatur cupiditate provident repellendus. Autem pariatur perspiciatis eos. Veniam
+                voluptatum et nemo fugit soluta. Iusto magnam doloribus error voluptates, magni facere nam quia dolorum,
+                ducimus amet soluta assumenda?</p>
+            <p>Laudantium magnam fuga consectetur! Officiis, est ullam exercitationem mollitia ratione unde eius natus
+                incidunt. Ratione impedit, autem beatae aperiam enim laborum placeat porro sapiente quidem id repellat
+                asperiores voluptatibus officiis.</p>
+            <p>Labore quas laudantium veritatis voluptate distinctio est, impedit dolorem odit asperiores officia eaque
+                dignissimos qui, odio delectus perferendis. Odit ex praesentium tenetur molestias libero? Debitis
+                repellat quam laboriosam perspiciatis commodi!</p>
+            <p>Laborum possimus nam maiores natus, aliquid quaerat numquam quam deserunt? Minima, eveniet. Error esse
+                cum dignissimos numquam quibusdam harum blanditiis incidunt inventore placeat, nobis eum eligendi porro!
+                Eos, ipsum consequatur.</p>
+            <p>Dolore dolores error quibusdam iusto quisquam veritatis quas culpa ipsum quasi. Deleniti pariatur
+                laudantium ab quod dolorum rerum at sapiente accusamus. Facere, eaque maxime quae omnis impedit
+                consectetur assumenda ut!</p>
+            <p>Sed incidunt autem labore maiores voluptate. Corporis modi rem natus totam optio commodi nihil, molestiae
+                perferendis! A voluptate maiores, labore itaque aut corrupti, debitis magnam officia ab qui dignissimos
+                neque.</p>
+            <p>In ullam obcaecati facilis nostrum veritatis quas explicabo quia molestias omnis, eum nulla asperiores
+                facere quisquam aspernatur mollitia aliquid vero quos sit, illum magnam optio. Quos autem sed aliquam
+                unde!</p>
+            <p>Eius cum velit obcaecati iste quae, perferendis reprehenderit corporis cupiditate dicta odit fugit
+                perspiciatis ab provident enim culpa ipsa iusto accusamus, neque similique sunt nihil ad nisi maxime.
+                Voluptas, ratione?</p>
+            <p>Unde cumque, quod architecto iure ea qui dolorem necessitatibus modi doloribus in culpa deserunt nulla
+                dolorum repellendus saepe quia porro. Non tempore necessitatibus animi fugit excepturi assumenda?
+                Molestias, natus fugiat.</p>
+            <p>Aperiam autem adipisci deserunt quae. Excepturi sed necessitatibus culpa repellendus voluptatibus dolor
+                vero ab vitae molestiae modi. Delectus minus incidunt numquam quam ab enim corporis maxime veritatis,
+                repellat dolor neque.</p>
+            <p>Repellendus, repudiandae ut mollitia voluptatibus quo in similique nihil aliquid explicabo odit deleniti
+                quos maxime laboriosam incidunt cupiditate voluptate totam quae voluptas sed expedita hic laborum
+                dolores! Officiis, ut ratione.</p>
+            <p>Quas asperiores veniam voluptatibus laudantium distinctio rerum animi quasi mollitia, non dolore labore,
+                est quo aspernatur neque laboriosam hic incidunt quibusdam tempore fugiat recusandae. Praesentium fuga
+                magni necessitatibus deleniti omnis!</p>
+        </div>
+
+    </section>
+    <!--Stop Section about-->
+    <!--Start section validation-->
+    <section id="sec-contact">
+        <div class="container">
+            <div class="form-body">
+                <div class="row">
+                    <div class="form-holder">
+                        <div class="form-content">
+                            <div class="form-items">
+                                <h3>Formular de inregistrare</h3>
+                                <p>Va rugam sa completati datele de mai jos.</p>
+                                <form class="requires-validation" novalidate>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="text" name="name" placeholder="Nume" required>
+                                        <div class="valid-feedback">Campul Nume este valid!</div>
+                                        <div class="invalid-feedback">Campul Nume trebuie completat corect!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="email" name="email" placeholder="Email"
+                                            required>
+                                        <div class="valid-feedback">Campul Email este valid!</div>
+                                        <div class="invalid-feedback">Campul Email trebuie completat corect!</div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <select name="jdorit" class="form-select mt-3" required>
+                                            <option selected disabled value="">Job dorit</option>
+                                            <option value="jweb">Junior Web Developer</option>
+                                            <option value="sweb">Senior Web Developer</option>
+                                            <option value="pmanager">Project Manager</option>
+                                        </select>
+                                        <div class="valid-feedback">Campul Job dorit este valid!</div>
+                                        <div class="invalid-feedback">Va rugam selectati o optiune!</div>
+                                    </div>
+
+
+                                    <div class="col-md-12">
+                                        <input class="form-control" type="password" name="password" placeholder="Parola"
+                                            required>
+                                        <div class="valid-feedback">Campul Parola este valid!</div>
+                                        <div class="invalid-feedback">Campul Parola este obligatoriu!</div>
+                                    </div>
+
+
+                                    <div class="col-md-12 mt-3">
+                                        <label class="mb-3 mr-1" for="gender">Sex: </label>
+
+                                        <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off"
+                                            required>
+                                        <label class="btn btn-sm btn-outline-secondary" for="male">Masculin</label>
+
+                                        <input type="radio" class="btn-check" name="gender" id="female"
+                                            autocomplete="off" required>
+                                        <label class="btn btn-sm btn-outline-secondary" for="female">Feminin</label>
+
+                                        <input type="radio" class="btn-check" name="gender" id="secret"
+                                            autocomplete="off" required>
+                                        <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+                                        <div class="valid-feedback mv-up">Campul Sex este valid!</div>
+                                        <div class="invalid-feedback mv-up">Va rugam selectati o optiune!</div>
+                                    </div>
+
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                            required>
+                                        <label class="form-check-label">Confirm ca datele sunt corecte</label>
+                                        <div class="invalid-feedback">Va rugam sa confirmati ca datele sunt corecte!
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-button mt-3">
+                                        <button id="submit" type="submit"
+                                            class="btn btn-primary">Inregistreaza-te</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Stop section validation-->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main-min.js"></script>
+</body>
+
+</html>
